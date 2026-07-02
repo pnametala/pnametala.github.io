@@ -8,7 +8,6 @@ export const profile = {
   links: {
     github: 'https://github.com/pnametala',
   },
-  education: 'Information Systems — Estácio de Sá University',
   languages: 'Portuguese (Native) · English (Advanced)',
 }
 
@@ -120,13 +119,6 @@ export const highlights = [
       'Delivered a large-scale data migration under a tight deadline with zero data loss, using Informatica PowerCenter and Oracle.',
     tags: ['Oracle', 'ETL', 'Data Migration'],
   },
-]
-
-export const achievements = [
-  'Cut third-party API calls by 40% with a custom price-caching system for a live betting feed.',
-  "Delivered two consecutive Melbourne Cup events — peak platform load — with zero major incidents.",
-  'Migrated all microservices to the latest .NET Core, improving performance, security, and maintainability.',
-  'Delivered an enterprise-scale data migration with zero data loss under a tight deadline.',
 ]
 
 export const coreStrengths = [
