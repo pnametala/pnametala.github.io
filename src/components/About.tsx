@@ -1,5 +1,5 @@
 import Section from './Section'
-import { achievements, interests } from '../data'
+import { achievements, coreStrengths, profile } from '../data'
 
 export default function About() {
   return (
@@ -20,12 +20,12 @@ export default function About() {
         </div>
         <div>
           <h4 className="mb-3 text-sm font-medium text-ink-950 dark:text-white">
-            Interests
+            Core Strengths
           </h4>
           <div className="flex flex-wrap gap-2">
-            {interests.map((item, i) => (
+            {coreStrengths.map((item) => (
               <span
-                key={i}
+                key={item}
                 className="rounded-full border border-neutral-200 px-3 py-1 text-sm text-neutral-600 dark:border-ink-800 dark:text-neutral-400"
               >
                 {item}
@@ -34,6 +34,9 @@ export default function About() {
           </div>
         </div>
       </div>
+      <p className="mt-10 text-sm text-neutral-500 dark:text-neutral-500">
+        {profile.education} · {profile.languages}
+      </p>
     </Section>
   )
 }
